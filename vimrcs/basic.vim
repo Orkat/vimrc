@@ -66,6 +66,18 @@ nmap <leader>w :w!<cr>
 command W w !sudo tee % > /dev/null
 
 
+set mouse=a
+ 
+set textwidth=72
+set autoindent
+set tabstop=8
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+set list
+ 
+set nu
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
